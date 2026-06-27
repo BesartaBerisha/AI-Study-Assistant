@@ -133,7 +133,7 @@ tab_chat, tab_summary, tab_flash, tab_quiz, tab_exam = st.tabs(
 # CHAT
 # ════════════════════════════════════════════════════════════════════════════════
 with tab_chat:
-    st.header("Chat with Your Study Buddy")
+    st.header("Chat with Your Study Assistant")
 
     if not st.session_state.document_text:
         st.info("Upload a document from the sidebar to get started.")
